@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
 
 Vue.use(Router)
 
@@ -9,17 +8,39 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      // 赛区
+      path: '/CompetitionArea',
+      name: 'CompetitionArea',
+      component: () => import(/* webpackChunkName: "about" */ './views/CompetitionArea.vue'),
+      children: [
+        {
+          path: 'chinaSp',
+          component: () => import(/* webpackChunkName: "about" */ './components/CompetitionArea/china.vue')
+        }
+      ]
+    }, {
+      // 赛事积分榜
+      path: '/CompetitionScoreList',
+      name: 'CompetitionScoreList',
+      component: () => import(/* webpackChunkName: "about" */ './views/CompetitionScoreList.vue')
+    }, {
+      // 球队信息
+      path: '/TeamInformation',
+      name: 'TeamInformation',
+      component: () => import(/* webpackChunkName: "about" */ './views/TeamInformation.vue')
+    }, {
+      // 赛事回顾
+      path: '/EventReview',
+      name: 'EventReview',
+      component: () => import(/* webpackChunkName: "about" */ './views/EventReview.vue'),
+      children: [
+        {
+          // 精彩回顾
+          path: '/WonderfulReview',
+          name: '/WonderfulReview',
+          component: () => import(/* webpackChunkName: "about" */ './components/WonderfulReview.vue')
+        }
+      ]
     }
   ]
 })
