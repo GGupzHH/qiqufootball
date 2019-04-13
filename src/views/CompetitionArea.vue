@@ -31,9 +31,65 @@ export default {
       areaArray: [
         {
           name: '中超',
-          path: 'china'
+          path: 'chinaSp'
+        }, {
+          name: '英超',
+          path: 'engSp'
+        }, {
+          name: '西甲',
+          path: 'espNail'
+        }, {
+          name: '德甲',
+          path: 'gerNail'
+        }, {
+          name: '意甲',
+          path: 'ItalyNail'
+        }, {
+          name: '欧冠',
+          path: 'europeWinner'
+        }, {
+          name: '法甲',
+          path: 'franceNail'
+        }, {
+          name: '中甲',
+          path: 'chinaNail'
+        }, {
+          name: '欧联',
+          path: 'europeLeague'
+        }, {
+          name: '英冠',
+          path: 'britainWinner'
+        }, {
+          name: '荷甲',
+          path: 'holandNail'
+        }, {
+          name: '葡甲',
+          path: 'portugalNail'
+        }, {
+          name: '法乙',
+          path: 'franceSecond'
+        }, {
+          name: '俄超',
+          path: 'russiaSp'
+        }, {
+          name: '土超',
+          path: 'turkeySp'
+        }, {
+          name: '日职',
+          path: 'japanOccup'
+        }, {
+          name: '港超',
+          path: 'HKSp'
+        }, {
+          name: 'K联赛',
+          path: 'Kleague'
+        }, {
+          name: '阿甲',
+          path: 'argentinaNail'
+        }, {
+          name: '巴甲',
+          path: 'brazilNail'
         }
-        // 英超, 西甲, 德甲, 意甲, 欧冠, 法甲, 中甲, 欧联, 欧联, 英冠, 荷甲, 葡甲, 法乙, 俄超, 土超, 日职, 港超, K联赛, 阿甲, 巴甲
       ]
     }
   },

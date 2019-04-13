@@ -14,7 +14,7 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/CompetitionArea.vue'),
       children: [
         {
-          path: '/CompetitionArea/china',
+          path: 'chinaSp',
           component: () => import(/* webpackChunkName: "about" */ './components/CompetitionArea/china.vue')
         }
       ]
