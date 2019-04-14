@@ -14,8 +14,65 @@ export default new Router({
       component: () => import('./views/CompetitionArea.vue'),
       children: [
         {
-          path: 'chinaSp',
-          component: () => import('./components/CompetitionArea/china.vue')
+          path: 'chinaSp', // 中超
+          component: () => import('./components/CompetitionArea/chinaSp.vue')
+        }, {
+          path: 'engSp', // 英超
+          component: () => import('./components/CompetitionArea/engSp.vue')
+        }, {
+          path: 'espNail', // 西甲
+          component: () => import('./components/CompetitionArea/espNail.vue')
+        }, {
+          path: 'gerNail', // 德甲
+          component: () => import('./components/CompetitionArea/gerNail.vue')
+        }, {
+          path: 'ItalyNail', // 意甲
+          component: () => import('./components/CompetitionArea/ItalyNail.vue')
+        }, {
+          path: 'europeWinner', // 欧冠
+          component: () => import('./components/CompetitionArea/europeWinner.vue')
+        }, {
+          path: 'franceNail', // 法甲
+          component: () => import('./components/CompetitionArea/franceNail.vue')
+        }, {
+          path: 'chinaNail', // 中甲
+          component: () => import('./components/CompetitionArea/chinaNail.vue')
+        }, {
+          path: 'europeLeague', // 欧联
+          component: () => import('./components/CompetitionArea/europeLeague.vue')
+        }, {
+          path: 'britainWinner', // 英冠
+          component: () => import('./components/CompetitionArea/britainWinner.vue')
+        }, {
+          path: 'holandNail', // 荷甲
+          component: () => import('./components/CompetitionArea/holandNail.vue')
+        }, {
+          path: 'portugalNail', // 葡甲
+          component: () => import('./components/CompetitionArea/portugalNail.vue')
+        }, {
+          path: 'franceSecond', // 法乙
+          component: () => import('./components/CompetitionArea/franceSecond.vue')
+        }, {
+          path: 'russiaSp', // 俄超
+          component: () => import('./components/CompetitionArea/russiaSp.vue')
+        }, {
+          path: 'turkeySp', // 土超
+          component: () => import('./components/CompetitionArea/turkeySp.vue')
+        }, {
+          path: 'japanOccup', // 日职
+          component: () => import('./components/CompetitionArea/japanOccup.vue')
+        }, {
+          path: 'HKSp', // 港超
+          component: () => import('./components/CompetitionArea/HKSp.vue')
+        }, {
+          path: 'Kleague', // K联赛
+          component: () => import('./components/CompetitionArea/Kleague.vue')
+        }, {
+          path: 'argentinaNail', // 阿甲
+          component: () => import('./components/CompetitionArea/argentinaNail.vue')
+        }, {
+          path: 'brazilNail', // 巴甲
+          component: () => import('./components/CompetitionArea/brazilNail.vue')
         }
       ]
     }, {
