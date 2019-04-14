@@ -8,12 +8,19 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
+      path: '/',
+      name: 'index',
+      component: () => import('./views/index.vue')
+    }, {
       // 赛区
       path: '/CompetitionArea',
       name: 'CompetitionArea',
       component: () => import('./views/CompetitionArea.vue'),
       children: [
         {
+          path: '',
+          component: () => import('./components/CompetitionArea/chinaSp.vue')
+        }, {
           path: 'chinaSp', // 中超
           component: () => import('./components/CompetitionArea/chinaSp.vue')
         }, {
@@ -93,8 +100,8 @@ export default new Router({
       children: [
         {
           // 精彩回顾
-          path: '/WonderfulReview',
-          name: '/WonderfulReview',
+          path: 'WonderfulReview',
+          name: 'WonderfulReview',
           component: () => import('./components/WonderfulReview.vue')
         }
       ]
