@@ -18,6 +18,9 @@ export default new Router({
       component: () => import('./views/CompetitionArea.vue'),
       children: [
         {
+          path: '',
+          component: () => import('./components/CompetitionArea/chinaSp.vue')
+        }, {
           path: 'chinaSp', // 中超
           component: () => import('./components/CompetitionArea/chinaSp.vue')
         }, {
