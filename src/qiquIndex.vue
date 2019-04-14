@@ -10,8 +10,7 @@
           <router-link to="/EventReview">赛事回顾</router-link>
         </div>
         <div class="right" v-if="!admin">
-          <span>登录</span>|
-          <span>退出</span>
+          <span>登录</span>
         </div>
         <div class="right" v-else>
           <span>欢迎</span>
@@ -28,7 +27,7 @@
 export default {
   data: function () {
     return {
-      admin: 'dddd'
+      admin: ''
     }
   }
 }

@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
 Vue.use(Router)
-
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
@@ -18,9 +16,6 @@ export default new Router({
       component: () => import('./views/CompetitionArea.vue'),
       children: [
         {
-          path: '',
-          component: () => import('./components/CompetitionArea/chinaSp.vue')
-        }, {
           path: 'chinaSp', // 中超
           component: () => import('./components/CompetitionArea/chinaSp.vue')
         }, {
@@ -100,8 +95,8 @@ export default new Router({
       children: [
         {
           // 精彩回顾
-          path: 'WonderfulReview',
-          name: 'WonderfulReview',
+          path: '/WonderfulReview',
+          name: '/WonderfulReview',
           component: () => import('./components/WonderfulReview.vue')
         }
       ]
