@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?j190og');
+  src:  url('fonts/icomoon.eot?j190og#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?j190og') format('truetype'),
+    url('fonts/icomoon.woff?j190og') format('woff'),
+    url('fonts/icomoon.svg?j190og#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class*=" el-icon-"], [class^=el-icon-] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-zt:before {
+  content: "\e910";
+}
+.icon-ks:before {
+  content: "\e912";
+}
+.icon-query-show:before {
+  content: "\e909";
+}
+.icon-clear:before {
+  content: "\e90a";
+  color: #979797;
+}
+.icon-Tips:before {
+  content: "\e904";
+}
+.icon-1:before {
+  content: "\e90f";
+}
+.icon-isshow:before {
+  content: "\e905";
+}
+.icon-noshow:before {
+  content: "\e906";
+}
+.icon-dowload:before {
+  content: "\e907";
+}
+.icon-logout:before {
+  content: "\e908";
+}
+.icon-more-1:before {
+  content: "\e90b";
+}
+.icon-contrast:before {
+  content: "\e90c";
+}
+.icon-users:before {
+  content: "\e90d";
+}
+.icon-more-2:before {
+  content: "\e90e";
+}
+.icon-index:before {
+  content: "\e900";
+}
+.icon-chart:before {
+  content: "\e901";
+}
+.icon-endofyearchart:before {
+  content: "\e902";
+}
+.icon-dbquery:before {
+  content: "\e903";
+}
+.el-icon-arrow-up:before {
+  content: "\e909";
+  color: #000;
+  font-size: 10px;
+  line-height: 28px;
+}
+.el-icon-arrow-left:before {
+  content: "\e90b";
+  transform: rotateZ(180deg);
+  /* color: #000; */
+}
+
+.el-icon-d-arrow-left:before {
+  content: "\e90e";
+}
+.el-icon-d-arrow-right:before {
+  content: "\e90e";
+}
+.el-icon-arrow-right:before {
+  content: "\e90b";
+}
+.el-icon-more:before,.el-icon-warning:before,.el-icon-success::before,.el-icon-view:before {
+  font-family: 'element-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
