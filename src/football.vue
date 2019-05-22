@@ -32,7 +32,7 @@ export default {
   computed: {},
   watch: {
     $route (to, from) {
-      console.log(to)
+      // console.log(to)
       if (to.name === 'login') {
         this.isshow = false
       } else {

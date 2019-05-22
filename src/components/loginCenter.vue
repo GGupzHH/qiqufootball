@@ -2,11 +2,9 @@
   <div class='loginCenter'>
     <div class="userlogin">
       <div class="box">
-        <el-input placeholder="请输入内容" v-model="username" class="username">
-          <template slot="prepend">用户名</template>
+        <el-input placeholder="请输入用户名" v-model="username" class="username">
         </el-input>
-        <el-input placeholder="请输入内容" v-model="password" show-password class="password">
-          <template slot="prepend">密&nbsp;&nbsp;&nbsp;码</template>
+        <el-input placeholder="请输入密码" v-model="password" show-password class="password">
         </el-input>
       </div>
     </div>
