@@ -1,7 +1,7 @@
 <template>
   <div class=''>
-      比赛
-      
+    精彩集锦
+    Highlights
   </div>
 </template>
 

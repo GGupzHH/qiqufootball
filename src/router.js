@@ -8,40 +8,43 @@ const router = new Router({
   base: process.env.BASE_URL,
   routes: [
     {
+      path: '/login',
+      name: 'login',
+      component: () => import('./views/login.vue')
+    }, {
+      // 首页
       path: '/',
       name: 'main',
       component: () => import('./views/main.vue')
     }, {
-      path: '/game',
-      name: 'game',
-      component: () => import('./views/game.vue')
+      // 各大赛区
+      path: '/zone',
+      name: 'zone',
+      component: () => import('./views/zone.vue')
     }, {
-      path: '/data',
-      name: 'data',
-      component: () => import('./views/data.vue')
+      // 积分榜
+      path: '/integral',
+      name: 'integral',
+      component: () => import('./views/integral.vue')
     }, {
-      path: '/login',
-      name: 'login',
-      component: () => import('./views/login.vue')
+      // 赛事回顾
+      path: '/review',
+      name: 'review',
+      component: () => import('./views/review.vue')
+    }, {
+      // 球员信息
+      path: '/playerin',
+      name: 'playerin',
+      component: () => import('./views/playerinformation.vue')
+    }, {
+      // 精彩集锦
+      path: '/highlights',
+      name: 'highlights',
+      component: () => import('./views/highlights.vue')
     }
   ]
 })
 router.beforeEach((to, from, next) => {
-  // ...
-  if (to.path === '/login') {
-    next()
-  }
-  if (to.path === '/') {
-    const token = localStorage.getItem('token')
-    if (!token) {
-      console.log(111)
-      router.push({
-        path: '/login'
-      })
-      next()
-    } else {
-      next()
-    }
-  }
+  next()
 })
 export default router

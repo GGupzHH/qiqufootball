@@ -1,6 +1,6 @@
 <template>
   <div class=''>
-    数据
+    赛事回顾
   </div>
 </template>
 

@@ -35,10 +35,26 @@ export default {
   },
   methods: {
     getLogin () {
-      if (this.username && this.password) {
-        this.$router.push({
-          path: '/'
-        })
+      let username = window.sessionStorage.getItem('userdata')
+      if (username) {
+        let usernamedata = JSON.parse(username)
+        console.log(usernamedata)
+        for (let i = 0; i < usernamedata.length; i++) {
+          if (this.username === usernamedata[i].username) {
+            if (this.password === usernamedata[i].pwd) {
+              this.$router.push({
+                path: '/'
+              })
+              window.localStorage.setItem('username', this.username)
+            } else {
+              this.$message.error('请核对您的用户名和密码')
+            }
+          } else {
+            this.$message.error('请核对您的用户名和密码')
+          }
+        }
+      } else {
+        this.$message.error('请先注册之后再登录！')
       }
     }
   },
