@@ -27,11 +27,6 @@ const router = new Router({
       name: 'integral',
       component: () => import('./views/integral.vue')
     }, {
-      // 赛事回顾
-      path: '/review',
-      name: 'review',
-      component: () => import('./views/review.vue')
-    }, {
       // 球员信息
       path: '/playerin',
       name: 'playerin',

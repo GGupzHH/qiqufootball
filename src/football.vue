@@ -2,6 +2,9 @@
   <div id="app">
     <div id="nav" v-if="isshow">
       <div class="w clearfix">
+        <div class="left logos">
+          <img src="./assets/logos.png" alt="">
+        </div>
         <div class="right users clearfix" v-show="userisshow">
           <span class="icon-users"></span>
           <span>{{ username }}</span>
@@ -13,13 +16,13 @@
         </div>
         <router-link to="/highlights" class="fistchild" :id="isactiveArr[5].isshow? 'active' : ''">精彩集锦</router-link>
         <router-link to="/playerin" :id="isactiveArr[4].isshow? 'active' : ''">球员信息</router-link>
-        <router-link to="/review" :id="isactiveArr[3].isshow? 'active' : ''">赛事回顾</router-link>
         <router-link to="/integral" :id="isactiveArr[2].isshow? 'active' : ''">积分榜</router-link>
         <router-link to="/zone" :id="isactiveArr[1].isshow? 'active' : ''">各大赛区</router-link>
         <router-link to="/" :id="isactiveArr[0].isshow? 'active' : ''">首页</router-link>
       </div>
     </div>
     <router-view/>
+    <footers v-show="userisshow"/>
   </div>
 </template>
 
@@ -54,7 +57,9 @@ export default {
       ]
     }
   },
-  components: {},
+  components: {
+    footers: () => import('./components/footer')
+  },
   computed: {},
   watch: {
     $route (to, from) {
@@ -73,7 +78,7 @@ export default {
           if (this.isactiveArr[i].name === to.name) {
             this.isactiveArr[i].isshow = true
           } else {
-            this.isactiveArr[i].isshow = false  
+            this.isactiveArr[i].isshow = false
           }
         }
       }
@@ -111,6 +116,11 @@ export default {
   left: 0px;
   z-index: 9;
   .w {
+    .logos {
+      img {
+        width: 150px;
+      }
+    }
     .users {
       height: 100%;
       padding-left: 30px;

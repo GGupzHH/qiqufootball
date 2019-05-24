@@ -33,7 +33,7 @@ export default {
       if (!this.username.length) {
         this.$message.error('用户名不能为空！')
       } else {
-        if (this.password === this.passwords) { 
+        if (this.password === this.passwords) {
           const {
             error,
             msg

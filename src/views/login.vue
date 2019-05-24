@@ -37,8 +37,8 @@ export default {
   created () {
   },
   methods: {
-    getRegister (is_getRegister) {
-      console.log(is_getRegister)
+    getRegister (isgetRegister) {
+      console.log(isgetRegister)
     },
     getLogin (index) {
       if (index) {
