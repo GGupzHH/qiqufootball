@@ -27,7 +27,7 @@ const router = new Router({
       name: 'integral',
       component: () => import('./views/integral.vue')
     }, {
-      // 球员信息
+      // 球队列表
       path: '/playerin',
       name: 'playerin',
       component: () => import('./views/playerinformation.vue')
@@ -36,6 +36,16 @@ const router = new Router({
       path: '/highlights',
       name: 'highlights',
       component: () => import('./views/highlights.vue')
+    }, {
+      // 球队信息
+      path: '/getinfor',
+      name: 'getinfor',
+      component: () => import('./components/getinfor')
+    }, {
+      // 球员信息
+      path: '/mateinfor',
+      name: 'mateinfor',
+      component: () => import('./components/mateinfor')
     }
   ]
 })

@@ -15,7 +15,7 @@
           <span @click="getLogin">登录</span>
         </div>
         <router-link to="/highlights" class="fistchild" :id="isactiveArr[5].isshow? 'active' : ''">精彩集锦</router-link>
-        <router-link to="/playerin" :id="isactiveArr[4].isshow? 'active' : ''">球员信息</router-link>
+        <router-link to="/playerin" :id="isactiveArr[4].isshow? 'active' : ''">球队信息</router-link>
         <router-link to="/integral" :id="isactiveArr[2].isshow? 'active' : ''">积分榜</router-link>
         <router-link to="/zone" :id="isactiveArr[1].isshow? 'active' : ''">各大赛区</router-link>
         <router-link to="/" :id="isactiveArr[0].isshow? 'active' : ''">首页</router-link>
@@ -77,6 +77,8 @@ export default {
         for (let i = 0; i < this.isactiveArr.length; i++) {
           if (this.isactiveArr[i].name === to.name) {
             this.isactiveArr[i].isshow = true
+          } else if (to.name === 'getinfor' || to.name === 'mateinfor') {
+            this.isactiveArr[4].isshow = true
           } else {
             this.isactiveArr[i].isshow = false
           }
