@@ -2,7 +2,7 @@
   <div class='playinfor'>
     <div class="w">
       <div class="center">
-        <ul @click="getinfor">
+        <ul>
           <li class="li1">排名</li>
           <li class="li2">球队</li>
           <li class="li3">场次</li>
@@ -171,6 +171,9 @@ export default {
     }
     ul:hover {
       background-color: @libg;
+    }
+    ul:first-child:hover {
+      background-color: @zuti;
     }
   }
 }
