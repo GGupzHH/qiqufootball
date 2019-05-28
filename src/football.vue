@@ -22,7 +22,7 @@
       </div>
     </div>
     <router-view/>
-    <footers v-show="userisshow"/>
+    <footers v-show="isshow"/>
   </div>
 </template>
 
