@@ -111,7 +111,7 @@
 .el-icon-arrow-right:before {
   content: "\e90b";
 }
-.el-icon-more:before,.el-icon-warning:before,.el-icon-success::before,.el-icon-view:before {
+.el-icon-more:before,.el-icon-warning:before,.el-icon-success:before,.el-icon-view:before,.el-icon-error:before,.el-icon-close::before {
   font-family: 'element-icons' !important;
   speak: none;
   font-style: normal;

@@ -12,7 +12,7 @@
       </header>
       <nav>
         <loginCenter v-if="!actives"/>
-        <registerCenter v-if="actives"/>
+        <registerCenter v-if="actives" :getRegister="getRegister"/>
       </nav>
     </div>
   </div>
@@ -37,6 +37,9 @@ export default {
   created () {
   },
   methods: {
+    getRegister (isgetRegister) {
+      console.log(isgetRegister)
+    },
     getLogin (index) {
       if (index) {
         this.actives = true

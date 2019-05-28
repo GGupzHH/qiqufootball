@@ -70,7 +70,7 @@ export default {
     handleClick () {
 
     }
-  },
+  }
 }
 </script>
 <style lang="less" scoped>
