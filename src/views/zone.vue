@@ -264,9 +264,795 @@
           </div>
         </div>
       </el-tab-pane>
-      <el-tab-pane label="足彩">足彩</el-tab-pane>
-      <el-tab-pane label="中超">中超</el-tab-pane>
-      <el-tab-pane label="英超">英超</el-tab-pane>
+      <el-tab-pane label="足彩">
+        <div class="zone1">
+          <h1>比赛列表</h1>
+          <div>
+            <p>2019-04-08 上个月</p>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p>2019-05-20 前天</p>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </el-tab-pane>
+      <el-tab-pane label="中超">
+        <div class="zone1">
+          <h1>比赛列表</h1>
+          <div>
+            <p>2019-06-01 六一</p>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p>2019-05-20 前天</p>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </el-tab-pane>
+      <el-tab-pane label="英超">
+        <div class="zone1">
+          <h1>比赛列表</h1>
+          <div>
+            <p>2019-05-21 昨天</p>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p>2019-05-20 前天</p>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+            <ul>
+              <li class="li1">完场</li>
+              <li class="li2">友谊赛</li>
+              <li class="li3">
+                <img src="" alt="">
+                <span>Vlf奥扥铂金</span>
+              </li>
+              <li class="li4">
+                <span>1 - 7</span>
+              </li>
+              <li class="li5">
+                <span>运大不大没</span>
+                <img src="" alt="">
+              </li>
+              <li class="li6">
+                <span>CCTV5+高清(网页版) </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </el-tab-pane>
     </el-tabs>
   </div>
 </template>

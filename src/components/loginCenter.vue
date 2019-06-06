@@ -16,9 +16,7 @@
     </footer>
   </div>
 </template>
-
 <script>
-
 export default {
   data () {
     return {
@@ -34,27 +32,24 @@ export default {
   created () {
   },
   methods: {
-    getLogin () {
-      let username = window.sessionStorage.getItem('userdata')
-      if (username) {
-        let usernamedata = JSON.parse(username)
-        console.log(usernamedata)
-        for (let i = 0; i < usernamedata.length; i++) {
-          if (this.username === usernamedata[i].username) {
-            if (this.password === usernamedata[i].pwd) {
-              this.$router.push({
-                path: '/'
-              })
-              window.localStorage.setItem('username', this.username)
-            } else {
-              this.$message.error('请核对您的用户名和密码')
-            }
-          } else {
-            this.$message.error('请核对您的用户名和密码')
-          }
+    async getLogin () {
+      let {
+        data: {
+          error,
+          msg
         }
+      } = await this.$apiAll.login(this, `login`, {
+        username: this.username,
+        password: this.password
+      })
+      if (error === 200) {
+        this.$router.push({
+          path: '/'
+        })
+        this.$message.success(msg)
+        window.localStorage.setItem('username', this.username)
       } else {
-        this.$message.error('请先注册之后再登录！')
+        this.$message.error(msg)
       }
     }
   },

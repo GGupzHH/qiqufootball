@@ -127,159 +127,67 @@
     </div>
   </div>
 </template>
-
 <script>
-
 export default {
   data () {
     return {
-      datalist: [
-        {
-          sj: 2019,
-          jlb: '北京中赫国安',
-          sc: 7,
-          sf: 7,
-          jq: 7,
-          zg: 2,
-          hp: 0,
-          hop: 0,
-          tb: 0
-        }, {
-          sj: 2019,
-          jlb: '北京中赫国安',
-          sc: 7,
-          sf: 7,
-          jq: 7,
-          zg: 2,
-          hp: 0,
-          hop: 0,
-          tb: 0
-        }, {
-          sj: 2019,
-          jlb: '北京中赫国安',
-          sc: 7,
-          sf: 7,
-          jq: 7,
-          zg: 2,
-          hp: 0,
-          hop: 0,
-          tb: 0
-        }, {
-          sj: 2019,
-          jlb: '北京中赫国安',
-          sc: 7,
-          sf: 7,
-          jq: 7,
-          zg: 2,
-          hp: 0,
-          hop: 0,
-          tb: 0
-        }, {
-          sj: 2019,
-          jlb: '北京中赫国安',
-          sc: 7,
-          sf: 7,
-          jq: 7,
-          zg: 2,
-          hp: 0,
-          hop: 0,
-          tb: 0
-        }, {
-          sj: 2019,
-          jlb: '北京中赫国安',
-          sc: 7,
-          sf: 7,
-          jq: 7,
-          zg: 2,
-          hp: 0,
-          hop: 0,
-          tb: 0
-        }, {
-          sj: 2019,
-          jlb: '北京中赫国安',
-          sc: 7,
-          sf: 7,
-          jq: 7,
-          zg: 2,
-          hp: 0,
-          hop: 0,
-          tb: 0
-        }, {
-          sj: 2019,
-          jlb: '北京中赫国安',
-          sc: 7,
-          sf: 7,
-          jq: 7,
-          zg: 2,
-          hp: 0,
-          hop: 0,
-          tb: 0
-        }, {
-          sj: 2019,
-          jlb: '北京中赫国安',
-          sc: 7,
-          sf: 7,
-          jq: 7,
-          zg: 2,
-          hp: 0,
-          hop: 0,
-          tb: 0
-        }, {
-          sj: 2019,
-          jlb: '北京中赫国安',
-          sc: 7,
-          sf: 7,
-          jq: 7,
-          zg: 2,
-          hp: 0,
-          hop: 0,
-          tb: 0
-        }
-      ]
+      datalist: []
     }
   },
-  components: {},
-  computed: {},
-  watch: {},
-  beforeCreate () {
-  },
-  created () {
-  },
-  methods: {
+  async created () {
+    let {
+      data
+    } = await this.$apiAll.mateinfor(this, `mateinfor`, {})
+    this.datalist = data
   },
   mounted () {
     const myechart = this.$echarts.init(document.querySelector('#average_xAxis'), 'walden')
     let option = {
-    tooltip: {},
-    radar: {
+      tooltip: {},
+      radar: {
         name: {
-            textStyle: {
-                color: '#fff',
-                backgroundColor: '#16b13a',
-                borderRadius: 7,
-                padding: [5, 10, 5, 10]
-           }
+          textStyle: {
+            color: '#fff',
+            backgroundColor: '#16b13a',
+            borderRadius: 7,
+            padding: [5, 10, 5, 10]
+          }
         },
         indicator: [
-           { name: '速度', max: 100},
-           { name: '射门', max: 100},
-           { name: '传球', max: 100},
-           { name: '盘带', max: 100},
-           { name: '防守', max: 100},
-           { name: '力量', max: 100}
+          {
+            name: '速度',
+            max: 100
+          }, {
+            name: '射门',
+            max: 100
+          }, {
+            name: '传球',
+            max: 100
+          }, {
+            name: '盘带',
+            max: 100
+          }, {
+            name: '防守',
+            max: 100
+          }, {
+            name: '力量',
+            max: 100
+          }
         ]
-    },
-    series: [{
-        name: '球员数据',
-        type: 'radar',
-        data : [
+      },
+      series: [
+        {
+          name: '球员数据',
+          type: 'radar',
+          data: [
             {
-                value : [88, 78, 72, 80, 35, 75],
-                name : '球员数据）'
+              value: [88, 78, 72, 80, 35, 75],
+              name: '球员数据）'
             }
-        ]
-    }]
-};
+          ]
+        }
+      ]
+    }
     myechart.setOption(option)
   }
 }
@@ -450,7 +358,6 @@ export default {
           flex: 1;
         }
       }
-      
       ul:nth-child(2n) {
         background-color: @mainBg;
       }

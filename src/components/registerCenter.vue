@@ -21,13 +21,6 @@ export default {
       passwords: ''
     }
   },
-  components: {},
-  computed: {},
-  watch: {},
-  beforeCreate () {
-  },
-  created () {
-  },
   methods: {
     async getRegister () {
       if (!this.username.length) {
