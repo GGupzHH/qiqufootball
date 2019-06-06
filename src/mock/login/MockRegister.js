@@ -5,16 +5,20 @@ export function MockRegister (option) {
   if (!userdata.length) {
     response = getResponse(body, response)
   } else {
-    userdata.forEach(item => {
-      if (item.username === body.username) {
-        response = {
-          msg: '已存在该用户！！',
-          error: 400
-        }
-      } else {
-        response = getResponse(body, response)
+    let index = 0
+    for (let i = 0; i < userdata.length; i++) {
+      if (userdata[i].username === body.username) {
+        index++
       }
-    })
+    }
+    if (index > 0) {
+      response = {
+        msg: '已存在该用户！！',
+        error: 400
+      }
+    } else {
+      response = getResponse(body, response)
+    }
   }
   return response
 }

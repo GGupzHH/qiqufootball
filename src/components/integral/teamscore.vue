@@ -96,22 +96,6 @@
 <script>
 
 export default {
-  data () {
-    return {
-      
-    }
-  },
-  components: {},
-  computed: {},
-  watch: {},
-  beforeCreate () {
-  },
-  created () {
-  },
-  methods: {
-  },
-  mounted () {
-  }
 }
 </script>
 <style lang='less' scoped>

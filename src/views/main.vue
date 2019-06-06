@@ -11,6 +11,12 @@
         <swiper-slide>
           <img src="../assets/lunbo3.jpg" alt="" />
         </swiper-slide>
+        <swiper-slide>
+          <img src="../assets/lunbo4.png" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="../assets/lunbo5.jpg" alt="" />
+        </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
     </div>
@@ -148,6 +154,7 @@ export default {
       div {
         width: 33.333%;
         height: 100%;
+        cursor: pointer;
         img {
           width: 80px;
           height: 80px;
